@@ -83,6 +83,7 @@ h2{
     padding: 60px;
 }
 
+
 /* The contact section------------ */
 
 .contact h2{
@@ -138,7 +139,26 @@ input[type=submit] {
     padding: 40px;
     width: 50%;
     position: absolute;
-    right: -100px;
-    top: 50px;
-    margin: 20px;
+    top: 10px;
+    right: 10px;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: right;
+}
+textarea:hover{
+    background-color: rgb(182, 165, 165);
+}
+input:hover{
+    background-color: rgb(134, 118, 118);
+}
+/* responsive  */
+@media screen and ( max-width: 660px) {
+    .contact-info, .container, .project, .about-section, #header, .image{
+        width: 100%;
+        margin-top: 0;
+    }
 }
