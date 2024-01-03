@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(212, 215, 216);
+    height: 100%;
+}
+
+/* The navigation bar--------- */
+
+#header {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: end;
+}
+a{
+    color: rgb(180, 152, 13);
+    text-decoration: none;
+}
+nav ul li{
+    display: inline;
+    padding: 0px 20px;
+    text-align: right;
+}
+li{
+    display: flex;
+    justify-content: right;
+    width: 0;
+    height: 0;
+}
+#header a:hover{
+    color: darkolivegreen;
+}
+
+/* The intro section---------- */
+
+.hero{
+    text-align: center;
+    color: rgb(126, 91, 62);
+    background-color: rgb(65, 58, 48);
+}
+span {
+    color: rgb(221, 197, 92);
+}
+.hero p{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.hero h1{
+    font-size: 40px;
+}
+
+/* About me section--------- */
+
+.about-section {
+    padding: 50px;
+    background-color: lightgray;
+    text-align: center;
+}
+h2{
+    padding: 20px;
+    text-align: center;
+    color: rgb(147, 179, 59);
+    background-color: rgb(212, 215, 216);
+
+}
+/* My project------------ */
+
+.project{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(212, 215, 216);
+    padding: 10px;
+    margin: 0px;
+}
+.image{
+    width: 50px;
+    flex-basis: 40%;
+    padding: 60px;
+}
+
+/* The contact section------------ */
+
+.contact h2{
+    color: rgb(28, 24, 32);
+    font-size: 40px;
+}
+.contact p {
+    color: rgb(100, 88, 66);
+    font-size: 25px;
+    text-align: center;
+}
+.container{
+    position: relative;
+    width: 100%;
+    border: 2px solid #ccc;
+    flex-basis: 40%;
+    padding: 60px;
+}
+.info {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 50%;
+
+}
+.name, .text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+input{
+    padding: 10px;
+    height: 50%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+textarea{
+    resize: none;
+    min-height: 220px;
+    outline: none;
+    padding: 10px;
+}
+input[type=submit] {
+    background-color: rgb(71, 64, 64);
+    padding: 12px 20px;
+    border: none;
+    width: 10%;
+    border-radius: 5px;
+    align-items: center;
+}
+.contact-info {
+    flex-basis: 60%;
+    padding: 40px;
+    width: 50%;
+    position: absolute;
+    right: -100px;
+    top: 50px;
+    margin: 20px;
+}
