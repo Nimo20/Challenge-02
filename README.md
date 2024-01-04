@@ -12,4 +12,4 @@ Each image is a link, if you click it will take you to github.
 
 And below is a brief video of how my portfolio should look like.
 
-Images/Document%20-%20Google%20Chrome%202024-01-04%2012-28-36.mp4" controls title="video"
+C:\Users\shiri\bootcamp\Challenge-02\Images\Document - Google Chrome 2024-01-04 12-28-36.mp4
