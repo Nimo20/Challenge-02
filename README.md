@@ -14,4 +14,4 @@ The images are some of the projects I did.
 
 And below is a brief video of how my portfolio should look like.
 
-<video src="Images/Document%20-%20Google%20Chrome%202024-01-04%2012-28-36.mp4" controls title="video"></video>
+https://github.com/Nimo20/Challenge-02/assets/112844715/7530d01e-b866-436a-b0ff-d4e528c18007
