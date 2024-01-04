@@ -4,7 +4,9 @@ This is my portfolio.
 
 Below are the images I used to create my portfolio.
 
-Each image is a link, if you click it will take you to github.
+Each image is a link, if you click it will take you to my github account.
+
+The images are some of the projects I did.
 
 ![image](Images/img.png)
 
@@ -12,4 +14,4 @@ Each image is a link, if you click it will take you to github.
 
 And below is a brief video of how my portfolio should look like.
 
-<video src="Images/Document%20-%20Google%20Chrome%202024-01-04%2012-28-36.mp4" controls title="video"></video>
+<video src="Images/Document%20-%20Google%20Chrome%202024-01-04%2012-28-36.mp4" controls title="Title"></video>
