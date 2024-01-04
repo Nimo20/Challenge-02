@@ -36,7 +36,7 @@ li{
 
 /* The intro section---------- */
 
-.hero{
+#hero{
     text-align: center;
     color: rgb(126, 91, 62);
     background-color: rgb(65, 58, 48);
@@ -54,7 +54,7 @@ span {
 
 /* About me section--------- */
 
-.about-section {
+#about-section {
     padding: 50px;
     background-color: lightgray;
     text-align: center;
@@ -68,7 +68,7 @@ h2{
 }
 /* My project------------ */
 
-.project{
+#project{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -89,11 +89,11 @@ h2{
 
 /* The contact section------------ */
 
-.contact h2{
+#contact h2{
     color: rgb(28, 24, 32);
     font-size: 40px;
 }
-.contact p {
+#contact p {
     color: rgb(100, 88, 66);
     font-size: 25px;
     text-align: center;
@@ -110,6 +110,7 @@ h2{
     gap: 20px;
     flex-direction: column;
     width: 50%;
+    color: aquamarine;
 
 }
 .name, .text{
