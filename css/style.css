@@ -82,7 +82,10 @@ h2{
     flex-basis: 40%;
     padding: 60px;
 }
-
+.image {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /* The contact section------------ */
 
@@ -134,32 +137,55 @@ input[type=submit] {
     border-radius: 5px;
     align-items: center;
 }
-.contact-info {
-    flex-basis: 60%;
-    padding: 40px;
-    width: 50%;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-}
-.contact-info{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    text-align: right;
-    font-size: 15px;
-}
 textarea:hover{
     background-color: rgb(182, 165, 165);
 }
 input:hover{
     background-color: rgb(134, 118, 118);
 }
+/* my contact info */
+h3, p {
+    font-size: 30px;
+}
+p {
+    font-size: 20px;
+}
+#contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer{
+    background-color: rgb(51, 57, 61);
+    width: 100%;
+    height: 50px;
+    color: rgb(152, 133, 108);
+}
 /* responsive  */
-@media screen and ( max-width: 660px) {
-    .contact-info, .container, .project, .about-section, #header, .image{
+@media screen and ( min-width: 550px) {
+    .info, .container, .project, .about-section, #header, .image, .contact-info, footer{
         width: 100%;
-        margin-top: 0;
+        background-color: rgb(91, 91, 79);
+        color: rgb(59, 74, 74);
+        
+
+    }
+}
+@media screen and (max-width: 992px) {
+
+    .info,
+    .container,
+    .project,
+    .about-section,
+    #header,
+    .image,
+    .contact-info,
+    footer {
+        width: 100%;
+        background-color: rgb(120, 97, 136);
+        color: rgb(59, 74, 74);
+
+
     }
 }
